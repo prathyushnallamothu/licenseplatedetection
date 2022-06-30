@@ -1,0 +1,66 @@
+2022-06-24 18:39:16,094 INFO    MainThread:37620 [internal.py:wandb_internal():90] W&B internal server running at pid: 37620, started at: 2022-06-24 18:39:16.094599
+2022-06-24 18:39:16,096 INFO    WriterThread:37620 [datastore.py:open_for_write():75] open: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\run-7t60b412.wandb
+2022-06-24 18:39:16,098 DEBUG   SenderThread:37620 [sender.py:send():235] send: header
+2022-06-24 18:39:16,098 DEBUG   SenderThread:37620 [sender.py:send():235] send: run
+2022-06-24 18:39:16,105 INFO    SenderThread:37620 [sender.py:_maybe_setup_resume():492] checking resume status for None/train/7t60b412
+2022-06-24 18:39:16,366 DEBUG   HandlerThread:37620 [handler.py:handle_request():141] handle_request: check_version
+2022-06-24 18:39:16,371 INFO    SenderThread:37620 [dir_watcher.py:__init__():205] watching files in: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\files
+2022-06-24 18:39:16,371 INFO    SenderThread:37620 [sender.py:_start_run_threads():812] run started: 7t60b412 with start time 1656110355
+2022-06-24 18:39:16,371 DEBUG   SenderThread:37620 [sender.py:send():235] send: summary
+2022-06-24 18:39:16,372 INFO    SenderThread:37620 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 18:39:16,372 DEBUG   SenderThread:37620 [sender.py:send_request():249] send_request: check_version
+2022-06-24 18:39:16,473 DEBUG   HandlerThread:37620 [handler.py:handle_request():141] handle_request: run_start
+2022-06-24 18:39:16,491 DEBUG   HandlerThread:37620 [meta.py:__init__():35] meta init
+2022-06-24 18:39:16,491 DEBUG   HandlerThread:37620 [meta.py:__init__():49] meta init done
+2022-06-24 18:39:16,491 DEBUG   HandlerThread:37620 [meta.py:probe():209] probe
+2022-06-24 18:39:16,547 DEBUG   HandlerThread:37620 [git.py:repo():29] git repository is invalid
+2022-06-24 18:39:16,547 DEBUG   HandlerThread:37620 [meta.py:_save_pip():53] save pip
+2022-06-24 18:39:16,548 DEBUG   HandlerThread:37620 [meta.py:_save_pip():67] save pip done
+2022-06-24 18:39:16,548 DEBUG   HandlerThread:37620 [meta.py:probe():247] probe done
+2022-06-24 18:39:16,586 DEBUG   SenderThread:37620 [sender.py:send():235] send: files
+2022-06-24 18:39:16,586 INFO    SenderThread:37620 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-06-24 18:39:16,595 DEBUG   HandlerThread:37620 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:39:16,595 DEBUG   SenderThread:37620 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:39:16,705 DEBUG   SenderThread:37620 [sender.py:send():235] send: telemetry
+2022-06-24 18:39:16,706 DEBUG   SenderThread:37620 [sender.py:send():235] send: config
+2022-06-24 18:39:17,101 INFO    Thread-15 :37620 [upload_job.py:push():132] Uploaded file C:\Users\prath\AppData\Local\Temp\tmp4qx1npipwandb\3eeut2je-wandb-metadata.json
+2022-06-24 18:39:17,374 INFO    Thread-11 :37620 [dir_watcher.py:_on_file_created():256] file/dir created: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\files\wandb-metadata.json
+2022-06-24 18:39:17,374 INFO    Thread-11 :37620 [dir_watcher.py:_on_file_created():256] file/dir created: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\files\requirements.txt
+2022-06-24 18:39:17,375 INFO    Thread-11 :37620 [dir_watcher.py:_on_file_created():256] file/dir created: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\files\output.log
+2022-06-24 18:39:17,375 INFO    Thread-11 :37620 [dir_watcher.py:_on_file_created():256] file/dir created: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\files\wandb-summary.json
+2022-06-24 18:39:19,387 INFO    Thread-11 :37620 [dir_watcher.py:_on_file_modified():269] file/dir modified: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\files\output.log
+2022-06-24 18:39:31,715 DEBUG   HandlerThread:37620 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:39:31,715 DEBUG   SenderThread:37620 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:39:46,821 DEBUG   HandlerThread:37620 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:39:46,821 DEBUG   SenderThread:37620 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:39:47,468 DEBUG   SenderThread:37620 [sender.py:send():235] send: stats
+2022-06-24 18:39:47,627 INFO    Thread-11 :37620 [dir_watcher.py:_on_file_modified():269] file/dir modified: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\files\config.yaml
+2022-06-24 18:40:01,946 DEBUG   HandlerThread:37620 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:40:01,946 DEBUG   SenderThread:37620 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:40:07,801 INFO    Thread-11 :37620 [dir_watcher.py:_on_file_modified():269] file/dir modified: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\files\output.log
+2022-06-24 18:40:17,046 DEBUG   HandlerThread:37620 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:40:17,047 DEBUG   SenderThread:37620 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:40:20,966 DEBUG   SenderThread:37620 [sender.py:send():235] send: stats
+2022-06-24 18:40:32,180 DEBUG   HandlerThread:37620 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:40:32,180 DEBUG   SenderThread:37620 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:40:47,290 DEBUG   HandlerThread:37620 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:40:47,291 DEBUG   SenderThread:37620 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:40:54,123 DEBUG   SenderThread:37620 [sender.py:send():235] send: stats
+2022-06-24 18:40:57,168 INFO    Thread-11 :37620 [dir_watcher.py:_on_file_modified():269] file/dir modified: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\files\output.log
+2022-06-24 18:40:59,191 INFO    Thread-11 :37620 [dir_watcher.py:_on_file_modified():269] file/dir modified: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\files\output.log
+2022-06-24 18:41:00,421 DEBUG   SenderThread:37620 [sender.py:send():235] send: telemetry
+2022-06-24 18:41:00,946 DEBUG   SenderThread:37620 [sender.py:send():235] send: exit
+2022-06-24 18:41:00,946 INFO    SenderThread:37620 [sender.py:send_exit():371] handling exit code: 1
+2022-06-24 18:41:00,947 INFO    SenderThread:37620 [sender.py:send_exit():373] handling runtime: 104
+2022-06-24 18:41:00,947 INFO    SenderThread:37620 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 18:41:00,947 INFO    SenderThread:37620 [sender.py:send_exit():379] send defer
+2022-06-24 18:41:00,948 DEBUG   HandlerThread:37620 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 18:41:00,948 INFO    HandlerThread:37620 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-24 18:41:00,948 DEBUG   SenderThread:37620 [sender.py:send_request():249] send_request: defer
+2022-06-24 18:41:00,948 INFO    SenderThread:37620 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-06-24 18:41:00,948 INFO    SenderThread:37620 [sender.py:transition_state():392] send defer: 1
+2022-06-24 18:41:00,948 DEBUG   HandlerThread:37620 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 18:41:00,948 INFO    HandlerThread:37620 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-24 18:41:01,207 INFO    Thread-11 :37620 [dir_watcher.py:_on_file_modified():269] file/dir modified: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\files\output.log
+2022-06-24 18:41:01,208 INFO    Thread-11 :37620 [dir_watcher.py:_on_file_modified():269] file/dir modified: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\files\wandb-summary.json
+2022-06-24 18:41:18,337 INFO    Thread-11 :37620 [dir_watcher.py:_on_file_modified():269] file/dir modified: D:\College\lisenceplatedetection\wandb\run-20220624_183914-7t60b412\files\config.yaml

@@ -1,0 +1,69 @@
+2022-06-24 18:30:07,977 INFO    MainThread:11656 [internal.py:wandb_internal():90] W&B internal server running at pid: 11656, started at: 2022-06-24 18:30:07.977597
+2022-06-24 18:30:07,979 INFO    WriterThread:11656 [datastore.py:open_for_write():75] open: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\run-3kj1ngzf.wandb
+2022-06-24 18:30:07,982 DEBUG   SenderThread:11656 [sender.py:send():235] send: header
+2022-06-24 18:30:07,982 DEBUG   SenderThread:11656 [sender.py:send():235] send: run
+2022-06-24 18:30:07,990 INFO    SenderThread:11656 [sender.py:_maybe_setup_resume():492] checking resume status for None/train/3kj1ngzf
+2022-06-24 18:30:08,306 DEBUG   HandlerThread:11656 [handler.py:handle_request():141] handle_request: check_version
+2022-06-24 18:30:08,312 INFO    SenderThread:11656 [dir_watcher.py:__init__():205] watching files in: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files
+2022-06-24 18:30:08,312 INFO    SenderThread:11656 [sender.py:_start_run_threads():812] run started: 3kj1ngzf with start time 1656109807
+2022-06-24 18:30:08,312 DEBUG   SenderThread:11656 [sender.py:send():235] send: summary
+2022-06-24 18:30:08,313 INFO    SenderThread:11656 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 18:30:08,314 DEBUG   SenderThread:11656 [sender.py:send_request():249] send_request: check_version
+2022-06-24 18:30:08,426 DEBUG   HandlerThread:11656 [handler.py:handle_request():141] handle_request: run_start
+2022-06-24 18:30:08,502 DEBUG   HandlerThread:11656 [meta.py:__init__():35] meta init
+2022-06-24 18:30:08,502 DEBUG   HandlerThread:11656 [meta.py:__init__():49] meta init done
+2022-06-24 18:30:08,503 DEBUG   HandlerThread:11656 [meta.py:probe():209] probe
+2022-06-24 18:30:08,523 DEBUG   HandlerThread:11656 [git.py:repo():29] git repository is invalid
+2022-06-24 18:30:08,523 DEBUG   HandlerThread:11656 [meta.py:_save_pip():53] save pip
+2022-06-24 18:30:08,524 DEBUG   HandlerThread:11656 [meta.py:_save_pip():67] save pip done
+2022-06-24 18:30:08,547 DEBUG   HandlerThread:11656 [meta.py:probe():247] probe done
+2022-06-24 18:30:08,613 DEBUG   SenderThread:11656 [sender.py:send():235] send: files
+2022-06-24 18:30:08,613 INFO    SenderThread:11656 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-06-24 18:30:08,624 DEBUG   HandlerThread:11656 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:30:08,624 DEBUG   SenderThread:11656 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:30:08,746 DEBUG   SenderThread:11656 [sender.py:send():235] send: telemetry
+2022-06-24 18:30:08,747 DEBUG   SenderThread:11656 [sender.py:send():235] send: config
+2022-06-24 18:30:09,134 INFO    Thread-15 :11656 [upload_job.py:push():132] Uploaded file C:\Users\prath\AppData\Local\Temp\tmpe76744c0wandb\1rabhrjt-wandb-metadata.json
+2022-06-24 18:30:09,318 INFO    Thread-11 :11656 [dir_watcher.py:_on_file_created():256] file/dir created: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\wandb-summary.json
+2022-06-24 18:30:09,318 INFO    Thread-11 :11656 [dir_watcher.py:_on_file_created():256] file/dir created: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\output.log
+2022-06-24 18:30:09,319 INFO    Thread-11 :11656 [dir_watcher.py:_on_file_created():256] file/dir created: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\requirements.txt
+2022-06-24 18:30:09,319 INFO    Thread-11 :11656 [dir_watcher.py:_on_file_created():256] file/dir created: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\wandb-metadata.json
+2022-06-24 18:30:11,340 INFO    Thread-11 :11656 [dir_watcher.py:_on_file_modified():269] file/dir modified: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\output.log
+2022-06-24 18:30:23,757 DEBUG   HandlerThread:11656 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:30:23,757 DEBUG   SenderThread:11656 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:30:38,877 DEBUG   HandlerThread:11656 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:30:38,877 DEBUG   SenderThread:11656 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:30:39,507 DEBUG   SenderThread:11656 [sender.py:send():235] send: stats
+2022-06-24 18:30:39,565 INFO    Thread-11 :11656 [dir_watcher.py:_on_file_modified():269] file/dir modified: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\config.yaml
+2022-06-24 18:30:54,004 DEBUG   HandlerThread:11656 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:30:54,004 DEBUG   SenderThread:11656 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:31:01,780 INFO    Thread-11 :11656 [dir_watcher.py:_on_file_modified():269] file/dir modified: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\output.log
+2022-06-24 18:31:09,125 DEBUG   HandlerThread:11656 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:31:09,125 DEBUG   SenderThread:11656 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:31:13,220 DEBUG   SenderThread:11656 [sender.py:send():235] send: stats
+2022-06-24 18:31:24,235 DEBUG   HandlerThread:11656 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:31:24,235 DEBUG   SenderThread:11656 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:31:39,339 DEBUG   HandlerThread:11656 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:31:39,340 DEBUG   SenderThread:11656 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:31:46,302 DEBUG   SenderThread:11656 [sender.py:send():235] send: stats
+2022-06-24 18:31:54,445 DEBUG   HandlerThread:11656 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 18:31:54,446 DEBUG   SenderThread:11656 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 18:32:10,001 WARNING MainThread:11656 [internal.py:is_dead():387] Internal process exiting, parent pid 6612 disappeared
+2022-06-24 18:32:10,001 ERROR   MainThread:11656 [internal.py:wandb_internal():149] Internal process shutdown.
+2022-06-24 18:32:10,483 INFO    WriterThread:11656 [datastore.py:close():279] close: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\run-3kj1ngzf.wandb
+2022-06-24 18:32:10,638 INFO    SenderThread:11656 [sender.py:finish():1111] shutting down sender
+2022-06-24 18:32:10,638 INFO    SenderThread:11656 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-06-24 18:32:10,638 INFO    HandlerThread:11656 [handler.py:finish():806] shutting down handler
+2022-06-24 18:32:11,522 INFO    SenderThread:11656 [dir_watcher.py:finish():366] scan: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files
+2022-06-24 18:32:11,522 INFO    SenderThread:11656 [dir_watcher.py:finish():380] scan save: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\config.yaml config.yaml
+2022-06-24 18:32:11,523 INFO    SenderThread:11656 [dir_watcher.py:finish():380] scan save: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\output.log output.log
+2022-06-24 18:32:11,525 INFO    SenderThread:11656 [dir_watcher.py:finish():380] scan save: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\requirements.txt requirements.txt
+2022-06-24 18:32:11,526 INFO    SenderThread:11656 [dir_watcher.py:finish():380] scan save: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\wandb-metadata.json wandb-metadata.json
+2022-06-24 18:32:11,527 INFO    SenderThread:11656 [dir_watcher.py:finish():380] scan save: D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\wandb-summary.json wandb-summary.json
+2022-06-24 18:32:11,528 INFO    SenderThread:11656 [file_pusher.py:finish():145] shutting down file pusher
+2022-06-24 18:32:11,528 INFO    SenderThread:11656 [file_pusher.py:join():150] waiting for file pusher
+2022-06-24 18:32:12,017 INFO    Thread-17 :11656 [upload_job.py:push():132] Uploaded file D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\output.log
+2022-06-24 18:32:12,023 INFO    Thread-16 :11656 [upload_job.py:push():132] Uploaded file D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\config.yaml
+2022-06-24 18:32:12,050 INFO    Thread-18 :11656 [upload_job.py:push():132] Uploaded file D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\requirements.txt
+2022-06-24 18:32:12,082 INFO    Thread-19 :11656 [upload_job.py:push():132] Uploaded file D:\College\lisenceplatedetection\wandb\run-20220624_183006-3kj1ngzf\files\wandb-summary.json
+2022-06-24 18:32:12,610 INFO    MainThread:11656 [internal.py:handle_exit():80] Internal process exited
