@@ -3,3 +3,10 @@ python yolov5/train.py --img 640 --cfg yolov5s.yaml --hyp hyp.scratch-low.yaml -
 
 # to detect 
  python yolov5/detect.py --source 0 --weights best.pt --conf 0.25 --name licence_detector
+ 
+ 
+ 
+ # to run the application
+  ```cosnole
+  python main.py
+  ```
